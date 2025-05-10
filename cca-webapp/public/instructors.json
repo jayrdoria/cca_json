@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Lance Aldrin B. Bulanadi",
+    "image": "https://i.imgur.com/CtoyANj.png",
+    "schedule": {
+      "Monday": [
+        { "time": "10:00AM - 1:00PM", "subject": "GRAMCOM", "room": "R201" },
+        { "time": "2:00PM - 5:00PM", "subject": "7NETS", "room": "CLAB5" }
+      ],
+      "Tuesday": [
+        {
+          "time": "7:00AM - 10:00AM",
+          "subject": "7ANALYTICS",
+          "room": "CLAB1"
+        },
+        { "time": "10:00AM - 1:00PM", "subject": "7THESIS1", "room": "L303" }
+      ],
+      "Wednesday": [
+        { "time": "7:00AM - 10:00AM", "subject": "KAPCUL", "room": "L304" },
+        { "time": "11:00AM - 1:00PM", "subject": "7NETS", "room": "CISCO LAB" },
+        { "time": "1:00PM - 3:00PM", "subject": "7ANALYTICS", "room": "R202" }
+      ],
+      "Thursday": [
+        { "time": "2:00PM - 5:00PM", "subject": "7AUTOMATA", "room": "CLAB5" },
+        { "time": "6:00PM - 9:00PM", "subject": "7RPE2", "room": "CLAB3" }
+      ],
+      "Friday": null,
+      "Saturday": [
+        { "time": "2:00PM - 4:00PM", "subject": "7RPE2", "room": "R202" }
+      ]
+    }
+  },
+  {
+    "name": "Christian F. Embile",
+    "image": "https://i.imgur.com/CtoyANj.png",
+    "schedule": {
+      "Monday": [
+        { "time": "10:00AM - 1:00PM", "subject": "GRAMCOM", "room": "R201" },
+        { "time": "2:00PM - 5:00PM", "subject": "7NETS", "room": "CLAB5" }
+      ],
+      "Tuesday": [
+        {
+          "time": "7:00AM - 10:00AM",
+          "subject": "7ANALYTICS",
+          "room": "CLAB1"
+        },
+        { "time": "10:00AM - 1:00PM", "subject": "7THESIS1", "room": "L303" }
+      ],
+      "Wednesday": [
+        { "time": "7:00AM - 10:00AM", "subject": "KAPCUL", "room": "L304" },
+        { "time": "11:00AM - 1:00PM", "subject": "7NETS", "room": "CISCO LAB" },
+        { "time": "1:00PM - 3:00PM", "subject": "7ANALYTICS", "room": "R202" }
+      ],
+      "Thursday": [
+        { "time": "2:00PM - 5:00PM", "subject": "7AUTOMATA", "room": "CLAB5" },
+        { "time": "6:00PM - 9:00PM", "subject": "7RPE2", "room": "CLAB3" }
+      ],
+      "Friday": null,
+      "Saturday": [
+        { "time": "2:00PM - 4:00PM", "subject": "7RPE2", "room": "R202" }
+      ]
+    }
+  },
+  {
+    "name": "Joseph B. Gamboa",
+    "image": "https://i.imgur.com/CtoyANj.png",
+    "schedule": {
+      "Monday": [
+        { "time": "10:00AM - 1:00PM", "subject": "GRAMCOM", "room": "R201" },
+        { "time": "2:00PM - 5:00PM", "subject": "7NETS", "room": "CLAB5" }
+      ],
+      "Tuesday": [
+        {
+          "time": "7:00AM - 10:00AM",
+          "subject": "7ANALYTICS",
+          "room": "CLAB1"
+        },
+        { "time": "10:00AM - 1:00PM", "subject": "7THESIS1", "room": "L303" }
+      ],
+      "Wednesday": [
+        { "time": "7:00AM - 10:00AM", "subject": "KAPCUL", "room": "L304" },
+        { "time": "11:00AM - 1:00PM", "subject": "7NETS", "room": "CISCO LAB" },
+        { "time": "1:00PM - 3:00PM", "subject": "7ANALYTICS", "room": "R202" }
+      ],
+      "Thursday": [
+        { "time": "2:00PM - 5:00PM", "subject": "7AUTOMATA", "room": "CLAB5" },
+        { "time": "6:00PM - 9:00PM", "subject": "7RPE2", "room": "CLAB3" }
+      ],
+      "Friday": null,
+      "Saturday": [
+        { "time": "2:00PM - 4:00PM", "subject": "7RPE2", "room": "R202" }
+      ]
+    }
+  },
+  {
+    "name": "Rio Raymart V. Salvador",
+    "image": "https://i.imgur.com/CtoyANj.png",
+    "schedule": {
+      "Monday": [
+        { "time": "10:00AM - 1:00PM", "subject": "GRAMCOM", "room": "R201" },
+        { "time": "2:00PM - 5:00PM", "subject": "7NETS", "room": "CLAB5" }
+      ],
+      "Tuesday": [
+        {
+          "time": "7:00AM - 10:00AM",
+          "subject": "7ANALYTICS",
+          "room": "CLAB1"
+        },
+        { "time": "10:00AM - 1:00PM", "subject": "7THESIS1", "room": "L303" }
+      ],
+      "Wednesday": [
+        { "time": "7:00AM - 10:00AM", "subject": "KAPCUL", "room": "L304" },
+        { "time": "11:00AM - 1:00PM", "subject": "7NETS", "room": "CISCO LAB" },
+        { "time": "1:00PM - 3:00PM", "subject": "7ANALYTICS", "room": "R202" }
+      ],
+      "Thursday": [
+        { "time": "2:00PM - 5:00PM", "subject": "7AUTOMATA", "room": "CLAB5" },
+        { "time": "6:00PM - 9:00PM", "subject": "7RPE2", "room": "CLAB3" }
+      ],
+      "Friday": null,
+      "Saturday": [
+        { "time": "2:00PM - 4:00PM", "subject": "7RPE2", "room": "R202" }
+      ]
+    }
+  }
+]
