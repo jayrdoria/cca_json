@@ -6,6 +6,7 @@ import RoomPage from "./pages/RoomPage";
 import InstructorPage from "./pages/InstructorPage";
 import UnderConstructionPage from "./pages/UnderConstructionPage";
 import FloorPage from "./pages/FloorPage";
+import RoomDetailsPage from "./pages/RoomDetailsPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/faculty" element={<UnderConstructionPage />} />
         <Route path="/laboratory" element={<UnderConstructionPage />} />
         <Route path="/floor/:id" element={<FloorPage />} />
+        <Route path="/rooms/:roomName" element={<RoomDetailsPage />} />
       </Routes>
     </Router>
   );

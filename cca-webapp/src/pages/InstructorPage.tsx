@@ -106,8 +106,9 @@ function InstructorPage() {
             </div>
 
             {/* Schedule Table (same as before) */}
-            <div className="overflow-x-auto">
-              <table className="w-full text-left text-sm">
+            {/* Responsive Schedule */}
+            <div className="w-full space-y-4 sm:space-y-0 sm:overflow-x-auto sm:block">
+              <table className="hidden sm:table w-full text-left text-sm">
                 <thead>
                   <tr>
                     <th className="py-2 px-3 bg-gray-800 text-white">Day</th>
@@ -119,14 +120,7 @@ function InstructorPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                  ].map((day) => {
+                  {days.map((day) => {
                     const schedule = selected.schedule[day];
                     if (!schedule || schedule.length === 0) {
                       return (
@@ -148,12 +142,70 @@ function InstructorPage() {
                         </td>
                         <td className="py-2 px-3">{entry.time}</td>
                         <td className="py-2 px-3">{entry.subject}</td>
-                        <td className="py-2 px-3">{entry.room}</td>
+                        <td className="py-2 px-3">
+                          <button
+                            onClick={() =>
+                              navigate(
+                                `/rooms/${encodeURIComponent(entry.room)}`
+                              )
+                            }
+                            className="text-blue-600 underline hover:text-blue-800 transition font-medium"
+                          >
+                            {entry.room}
+                          </button>
+                        </td>
                       </tr>
                     ));
                   })}
                 </tbody>
               </table>
+
+              {/* Mobile Card Layout */}
+              {/* Mobile Card Layout */}
+              <div className="sm:hidden flex flex-col gap-4">
+                {days.map((day) => {
+                  const schedule = selected.schedule[day];
+
+                  return (
+                    <div key={day} className="bg-gray-100 rounded p-3">
+                      <div className="font-bold text-gray-800 mb-2">{day}</div>
+
+                      {!schedule || schedule.length === 0 ? (
+                        <div className="italic text-gray-500 text-sm">
+                          No classes
+                        </div>
+                      ) : (
+                        schedule.map((entry, i) => (
+                          <div
+                            key={i}
+                            className="mb-3 border-b pb-2 last:border-b-0 last:pb-0"
+                          >
+                            <div className="text-sm">
+                              <strong>Time:</strong> {entry.time}
+                            </div>
+                            <div className="text-sm">
+                              <strong>Subject:</strong> {entry.subject}
+                            </div>
+                            <div className="text-sm">
+                              <strong>Room:</strong>{" "}
+                              <button
+                                onClick={() =>
+                                  navigate(
+                                    `/rooms/${encodeURIComponent(entry.room)}`
+                                  )
+                                }
+                                className="text-blue-600 underline hover:text-blue-800 transition font-medium"
+                              >
+                                {entry.room}
+                              </button>
+                            </div>
+                          </div>
+                        ))
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
